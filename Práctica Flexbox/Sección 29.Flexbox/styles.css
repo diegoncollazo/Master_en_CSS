@@ -1,31 +1,31 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
 }
-#layout{
-    display: flex;
-    border: 3px solid black;
-    padding: 5px;
+#layout {
+	display: flex;
+	border: 3px solid black;
+	padding: 5px;
 }
-.caja{
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-    padding: 20px;
-    border: 4px solid #222;
-    margin: 10px;
-    background: grey;
+.caja {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	border: 4px solid #222;
+	margin: 10px;
+	background: grey;
 }
-.red{
-    background-color: red;
+.red {
+	background-color: red;
 }
-.blue{
-    background-color: blue;
+.blue {
+	background-color: blue;
 }
-.green{
-    background-color: green;
+.green {
+	background-color: green;
 }
-.orange{
-    background-color: orange;
+.orange {
+	background-color: orange;
 }
