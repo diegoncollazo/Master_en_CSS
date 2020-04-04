@@ -1,0 +1,26 @@
+@use '_base';
+@use '_encabezado';
+.clearfix {
+	clear: both;
+}
+.caja {
+	border: 1px solid black;
+	// width: 500px;
+	margin: 0px auto;
+	text-align: center;
+	background-color: white;
+	padding: 10px;
+	h1 {
+		color: blue;
+	}
+	p {
+		color: wheat;
+	}
+	.info {
+		font-size: 10px;
+		.autor {
+			color: brown;
+			font-size: 20px;
+		}
+	}
+}

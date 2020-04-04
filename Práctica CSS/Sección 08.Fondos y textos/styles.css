@@ -1,0 +1,30 @@
+body {
+	/* background-color: gray;
+	background-image: url("./unnamed.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: left bottom; */
+	color: black;
+	text-align: justify;
+	text-indent: 15px;
+	/* word-spacing: 10px;
+	letter-spacing: 10px; */
+}
+#caja {
+	border: 5px solid black;
+	padding: 10px;
+	background-color: red;
+	color: whitesmoke;
+	font-family: "Open Sans";
+	text-align: center;
+	line-height: 50px;
+	text-transform: capitalize;
+	text-decoration: underline;
+}
+h2 {
+	color: rgb(70, 70, 230);
+	background-image: url("./fondo.jpg");
+	background-color: teal;
+	border: 5px solid orange;
+}

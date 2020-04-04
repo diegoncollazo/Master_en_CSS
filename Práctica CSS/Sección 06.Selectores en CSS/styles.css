@@ -1,0 +1,83 @@
+/* Selectores */
+* {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Selector de etiqueta */
+h1 {
+	background: red;
+	color: white;
+	padding: 10px;
+}
+a {
+	font-size: 18px;
+	color: green;
+	text-decoration: none;
+}
+footer a {
+	color: red;
+}
+/* Selector de ID */
+#descripcion,
+#titulo {
+	border: 5px solid black;
+	padding: 10px;
+}
+#titulo {
+	background: blue;
+	border: 2px dashed white;
+}
+/* Selector de clase */
+.parrafo {
+	font-style: italic;
+	font-weight: bold;
+	padding: 10px;
+	/* text-decoration: underline; */
+}
+.parrafo1,
+.parrafo3 {
+	background-color: green;
+	color: white;
+}
+.parrafo3 {
+	background-color: orange;
+	color: black;
+}
+/* Selector de atributo */
+#usuario form {
+	border: 5px solid rgb(21, 21, 184);
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 20px;
+}
+#usuario form * {
+	display: block;
+}
+
+input[type="text"] {
+	margin-bottom: 15px;
+	padding: 10px;
+	width: 300px;
+}
+input[type="submit"] {
+	background: green;
+	color: white;
+	padding: 15px;
+	font-size: 15px;
+	text-transform: lowercase;
+	border: 1px solid black;
+	cursor: pointer;
+}
+/* Selector hijo */
+#menu > li > a {
+	color: red;
+}
+#menu > li {
+	color: blueviolet;
+}
+/* Prioridad */
+#saludo h1 {
+	background: burlywood !important;
+}
+h1 {
+	background: blueviolet !important;
+}

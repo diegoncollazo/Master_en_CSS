@@ -1,0 +1,28 @@
+@font-face {
+	font-family: Oxanium;
+	src: url(Fonts/Oxanium/Oxanium-Regular.ttf);
+}
+h1 {
+	font-family: "Poppins";
+	font-style: italic;
+	text-transform: capitalize;
+	/* Colores */
+	/* Colores del sistema */
+	color: mediumpurple;
+	/* Colores hexadecimales */
+	color: #cccccc;
+	/* Colores RGB */
+	color: rgb(255, 100, 0);
+	/* Colores RGBA */
+	color: rgba(255, 100, 0, 0.5);
+}
+h3 {
+	font-family: Oxanium, "Comic Sans MS";
+	font-size: 25px;
+	font-weight: lighter;
+}
+p {
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}

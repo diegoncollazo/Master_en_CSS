@@ -1,0 +1,62 @@
+#boton {
+	display: block;
+	padding: 20px;
+	background: green;
+	color: whitesmoke;
+	width: 120px;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	/* Le saco el subrayado */
+	text-decoration: none;
+	border: 5px solid greenyellow;
+	transition: border 500ms, background 3s, border-radius 1s;
+}
+#boton:hover {
+	border-radius: 15px;
+	background: orangered;
+	border: 5px solid red;
+}
+#caja {
+	width: 250px;
+	height: 250px;
+	background: lightgreen;
+	margin-top: 25px;
+	color: white;
+	border: 5px solid black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	line-height: 200px;
+	animation-name: desplazamiento;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes desplazamiento {
+	/* from {
+		margin-left: 0px;
+	}
+	to {
+		margin-left: 1200px;
+	} */
+	0% {
+		margin-left: 0px;
+		transform: rotate(0deg);
+	}
+	50% {
+		margin-left: 1000px;
+		transform: rotate(180deg);
+		border-radius: 999px;
+	}
+	75% {
+		background: red;
+	}
+	77% {
+		border: 10px dashed blue;
+	}
+	100% {
+		margin-left: 0px;
+		transform: rotate(360deg);
+	}
+}
