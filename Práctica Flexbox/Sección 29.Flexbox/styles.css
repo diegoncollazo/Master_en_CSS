@@ -24,22 +24,23 @@ body {
 }
 .red {
 	/* order: 3; */
-	flex-grow: 5;
+	/* flex-grow: 5; */
 	background-color: red;
 }
 .blue {
 	/* Negativo si se pone en una sola */
 	/* order: 1; */
-	flex-grow: 15;
+	/* flex-grow: 0; */
+	/* flex-shrink: 0; */
 	background-color: blue;
 }
 .green {
 	/* order: 4; */
-	flex-grow: 15;
+	/* flex-grow: 15; */
 	background-color: green;
 }
 .orange {
-	flex-grow: 8;
+	/* flex-grow: 8; */
 	/* order: 2; */
 	background-color: orange;
 }
