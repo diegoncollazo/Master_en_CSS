@@ -2,3 +2,7 @@ https://sass-lang.com
 npm install -g npm-windows-upgrade
 npm install -g npm
 npm install -g sass
+
+sass --watch origen.scss destino.css
+
+https://desarrolloweb.com/articulos/que-es-sass-usar-sass.html
