@@ -10,13 +10,21 @@ body {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: 150px 70px 1fr 70px;
+
+	grid-template-areas: 
+		"cabecera cabecera cabecera cabecera cabecera"
+		"menu menu menu menu menu"
+		"lateral contenido contenido contenido contenido"
+		"pie pie pie pie pie"
+		;
+	gap: 5px;
 	width: 75%;
 	height: 1000px;
 	margin: 0 auto;
 	border: 1px solid #ccc;
 }
 #cabecera {
-	grid-column: 1 / 6;
+	grid-area: cabecera;
 	background: blue;
 	color: white;
 	/* Centrar contenido */
@@ -27,7 +35,7 @@ body {
 	align-items: center;
 }
 #menu {
-	grid-column: 1 / 6;
+	grid-area: menu;
 	background: lightblue;
 	color: black;
 	/* height: 70px; */
@@ -43,7 +51,7 @@ body {
 	text-decoration: none;
 }
 #contenido {
-	grid-column: 1 / 5;
+	grid-area: contenido;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 25px;
@@ -55,12 +63,14 @@ body {
 	border: 1px solid #555;
 }
 #lateral {
-	grid-column: 5 / 6;
+	grid-area: lateral;
 	background: orange;
 	color: white;
+
+
 }
 #pie_pagina {
-	grid-column: 1 / 6;
+	grid-area: pie;
 	background: black;
 	color: white;
 }
