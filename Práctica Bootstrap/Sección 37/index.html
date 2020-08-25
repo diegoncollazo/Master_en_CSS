@@ -7,11 +7,109 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-        <div class="mi_web w-75 m-auto p-5 border border-danger">
+		<!-- <div class="mi_web w-75 m-auto p-5 border border-danger">
             <h1>Master en CSS - Bootstrap</h1>
             <h2>Welcome to the bootstrap course</h2>
             <button class="btn btn-success">Boton</button>
-        </div>
+        </div> -->
+
+		<div class="container border">
+			<!-- Columnas y filas -->
+			<div class="row">
+				<header class="col-12 bg-primary text-white p-4 pl-5">
+					<h1>Aprendiendo Bootstrap con Víctor Robles</h1>
+				</header>
+				<nav id="menu" class="col-12 bg-secondary text-white">
+					<ul class="row w-50">
+						<li class="col">
+							<a href="#" class="text-white">Inicio</a>
+						</li>
+						<li class="col">
+							<a href="#" class="text-white">Pagina 1</a>
+						</li>
+						<li class="col">
+							<a href="#" class="text-white">Pagina 2</a>
+						</li>
+						<li class="col">
+							<a href="#" class="text-white">Pagina 3</a>
+						</li>
+						<li class="col">
+							<a href="#" class="text-white">Contacto</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- Grid -->
+				<section id="content" class="col-12">
+					<div class="row">
+						<section id="productos" class="col-9 border">
+							<h2>Productos</h2>
+							<hr />
+							<div class="items">
+								<div class="row">
+									<div class="item col bg-primary m-2">
+										Producto
+									</div>
+									<div class="item col bg-warning m-2">
+										Producto
+									</div>
+									<div class="item col bg-danger m-2">
+										Producto
+									</div>
+								</div>
+								<div class="row mt-5">
+									<div class="item col bg-primary m-2">
+										Producto
+									</div>
+									<div class="item col bg-warning m-2">
+										Producto
+									</div>
+									<div class="item col bg-danger m-2">
+										Producto
+									</div>
+									<div class="item col-5 bg-success m-2">
+										Producto
+									</div>
+								</div>
+
+								<!-- Alineacion horizontal de elementos -->
+								<div class="row mt-1 justify-content-between">
+									<div class="item col-3 bg-primary m-2">
+										Producto
+									</div>
+									<div class="item col-3 bg-warning m-2">
+										Producto
+									</div>
+									<div class="item col-3 bg-info m-2">
+										Producto
+									</div>
+								</div>
+							</div>
+						</section>
+						<!-- Alineacion vertical de elementos -->
+						<aside class="col-3 border">
+							<h2>Barra lateral</h2>
+							<div
+								class="row lateral bg-light align-items-center"
+							>
+								<div class="col-4 bg-primary align-self-start">
+									Elemento 1
+								</div>
+								<div class="col-4 bg-success align-self-center">
+									Elemento 2
+								</div>
+								<div class="col-4 bg-warning align-self-end">
+									Elemento 3
+								</div>
+							</div>
+						</aside>
+					</div>
+				</section>
+				<!-- Pie de pagina -->
+				<footer class="col-lg-12 bg-info">
+					Máster en CSS &copy;
+				</footer>
+			</div>
+		</div>
 
 		<script
 			type="text/javascript"
