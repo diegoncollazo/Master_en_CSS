@@ -21,3 +21,9 @@ footer {
 .lateral > div {
 	height: calc(270px / 3);
 }
+
+@media (max-width: 767.98px) {
+	#menu {
+		height: auto;
+	}
+}
